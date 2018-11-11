@@ -108,9 +108,26 @@ textarea {
       border: 1px solid red;
   }
 
+  .page-header {
+      background-color: #000;
+      color: #fff;
+      padding: 1em;
+      width: 100%;
+      position: fixed;
+      top: 0;
+  }
 
+  .page-header h1 {
+      font-size: 1em;
+      margin: 0;
+      text-transform: uppercase;
+  }
 
+  .page-header i {
+      float: right;
+  }
 
+  
 
 
 
