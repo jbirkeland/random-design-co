@@ -160,6 +160,9 @@ textarea {
 
   .bold-info {
     position: relative;
+    width: 100%;
+    margin: 0;
+    border-bottom: none;
   }
 
   .bold-info h2 {
@@ -172,6 +175,7 @@ textarea {
     font-size: 1.25em;
     padding: 1em;
     color: #fff;
+    display: inline-block;
   }
 
   .bold-info a:hover {
@@ -191,6 +195,7 @@ textarea {
   .bold-background {
     width: 100%;
     max-height: 30em;
+    z-index: -10;
   }
 
   .latest-work {
@@ -215,12 +220,12 @@ textarea {
     color: #000;
   }
 
-  .projects a:hover {
-    color: #fff;
-  }
-
   .projects:hover {
     background-color: rgb(255, 255, 255, 0);
+  }
+
+  .projects:hover h3 {
+    color: #fff;
   }
 
   .proj-background {
